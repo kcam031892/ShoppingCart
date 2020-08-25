@@ -205,3 +205,13 @@ a {
 #footer p {
   text-align:center;
 }
+
+@media (max-width:567px) {
+  .product-list {
+    grid-template-columns: repeat(1,1fr);
+  }
+  .shopping-cart {
+    right: 0;
+    left:0;
+  }
+}
